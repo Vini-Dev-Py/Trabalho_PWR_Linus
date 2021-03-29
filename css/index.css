@@ -47,5 +47,13 @@ header .head .img.principal .flex {
 
 header .head .img.principal .flex .img img {
     width: 450px;
-    height: 350px;
+    height: 350px;    
+}
+
+header .head .img.principal .flex .texto {
+    width: 30%;
+}
+
+header .head .img.principal .flex .texto p {
+    text-align: justify;
 }
