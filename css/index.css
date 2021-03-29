@@ -44,3 +44,8 @@ header .head .img.principal .flex {
     align-items: center;
     justify-content: space-evenly;
 }
+
+header .head .img.principal .flex .img img {
+    width: 450px;
+    height: 350px;
+}
