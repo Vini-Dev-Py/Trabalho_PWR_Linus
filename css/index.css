@@ -45,11 +45,6 @@ header .head .img.principal .flex {
     justify-content: space-evenly;
 }
 
-header .head .img.principal .flex .img img {
-    width: 450px;
-    height: 350px;    
-}
-
 header .head .img.principal .flex .texto {
     width: 30%;
 }
