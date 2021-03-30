@@ -1,7 +1,8 @@
-/* header .head .fixo {
+header .head .fixo {
     position: fixed;
     z-index: 9;
-} */
+    width: 100%;
+}
 
 header .head .fixo .menu {
     display: flex;
@@ -39,6 +40,10 @@ header .head .fixo .menu .categorias ul .categoria.texto.padd {
     padding-left: 20px;
 }
 
+header .head .img.principal {
+    padding-top: 50px;
+}
+
 header .head .img.principal .flex {
     display: flex;
     align-items: center;
@@ -51,4 +56,11 @@ header .head .img.principal .flex .texto {
 
 header .head .img.principal .flex .texto p {
     text-align: justify;
+    font-size: 1rem;
+}
+.aspas {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 900;
+    line-height: 12px;
 }
