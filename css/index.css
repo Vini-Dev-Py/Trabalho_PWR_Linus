@@ -8,16 +8,23 @@ header .head .fixo .menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: rgb(104, 104, 104);
+    /* background: rgb(104, 104, 104);
     background: linear-gradient(
         90deg,
         rgba(104, 104, 104, 1) 0%,
         rgba(0, 0, 0, 1) 25%,
         rgba(0, 0, 0, 1) 75%,
         rgba(104, 104, 104, 1) 100%
-    );
+    ); */
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #434343,
+        #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-size: 1.2rem;
-    font-family: arial, sans-serif;
     height: 50px;
 }
 
@@ -27,12 +34,12 @@ header .head .fixo .menu .categorias ul {
     justify-content: center;
 }
 
-header .head .fixo .menu .categorias ul li {
+header .head .fixo .menu .categorias ul li a {
     color: white;
     font-weight: 600;
 }
 
-header .head .fixo .menu .categorias ul li:hover {
+header .head .fixo .menu .categorias ul li a:hover {
     color: yellow;
 }
 
@@ -47,11 +54,16 @@ header .head .img.principal {
 header .head .img.principal .flex {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+header .head .img.principal .flex .img {
+    padding-right: 2%;
 }
 
 header .head .img.principal .flex .texto {
     width: 30%;
+    padding-left: 2%;
 }
 
 header .head .img.principal .flex .texto p {
@@ -63,4 +75,39 @@ header .head .img.principal .flex .texto p {
     color: black;
     font-weight: 900;
     line-height: 12px;
+}
+
+section .contents .content.texto.title h1 {
+    text-align: center;
+}
+
+section .contents .content.texto.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .contents .content.texto.flex .conteiner.textos.conteudos {
+    padding: 20px;
+
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #434343,
+        #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 5px solid #222222;
+    box-shadow: 1px 1px 0px #222, 2px 2px 0px #222, 3px 3px 0px #222, 4px 4px 0px #222, 5px 5px 0px #222,
+        6px 6px 0px #222;
+}
+
+section .contents .content.texto.flex .conteiner.textos.conteudos a .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    width: 250px;
 }

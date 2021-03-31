@@ -2,4 +2,18 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: black;
+}
+
+.aspas {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto.P.justify.box {
+    text-align: justify;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
 }
