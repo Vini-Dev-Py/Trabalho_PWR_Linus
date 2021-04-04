@@ -9,6 +9,10 @@
 
 .aspas {
     font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 900;
+    line-height: 12px;
 }
 
 .texto.P.justify.box {
@@ -17,3 +21,78 @@
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
 }
+
+/*Menu*/
+header .head .fixo {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+header .head .fixo .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background: rgb(104, 104, 104);
+    background: linear-gradient(
+        90deg,
+        rgba(104, 104, 104, 1) 0%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(104, 104, 104, 1) 100%
+    ); */
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #434343,
+        #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 1.2rem;
+    height: 50px;
+}
+
+header .head .fixo .menu .categorias ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .head .fixo .menu .categorias ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+header .head .fixo .menu .categorias ul li a:hover {
+    color: yellow;
+}
+
+header .head .fixo .menu .categorias ul .categoria.texto.padd {
+    padding-left: 20px;
+}
+
+header .head .img.principal {
+    padding-top: 50px;
+}
+
+header .head .img.principal .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .head .img.principal .flex .img {
+    padding-right: 2%;
+}
+
+header .head .img.principal .flex .texto {
+    width: 30%;
+    padding-left: 2%;
+}
+
+header .head .img.principal .flex .texto p {
+    text-align: justify;
+    font-size: 1rem;
+}
+/*Menu*/
