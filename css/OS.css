@@ -1,0 +1,25 @@
+/*Menu*/
+header .head .fixo {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+/*Texto*/
+.Paragrafo_1 {
+    text-align: justify;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.Paragrafo_2 {
+    text-align: justify;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.Paragrafo_3 {
+    text-align: justify;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
