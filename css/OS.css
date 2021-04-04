@@ -5,6 +5,9 @@ header .head .fixo {
     width: 100%;
 }
 /*Texto*/
+.BoxPrincipal{
+    text-align: center;
+}
 .Paragrafo_1 {
     text-align: center;
     color: rgb(0, 0, 0);
