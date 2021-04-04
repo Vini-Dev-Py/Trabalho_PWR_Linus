@@ -5,21 +5,24 @@ header .head .fixo {
     width: 100%;
 }
 /*Texto*/
+.BoxPrincipal{
+    text-align: center;
+}
 .Paragrafo_1 {
-    text-align: justify;
-    color: white;
+    text-align: center;
+    color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
 }
 .Paragrafo_2 {
-    text-align: justify;
-    color: white;
+    text-align: center;
+    color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
 }
 .Paragrafo_3 {
-    text-align: justify;
-    color: white;
+    text-align: center;
+    color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
 }
