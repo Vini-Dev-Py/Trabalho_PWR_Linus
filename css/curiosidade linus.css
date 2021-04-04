@@ -1,0 +1,24 @@
+section {
+    padding-top: 50px;
+}
+
+section .cards .card.shadow {
+    width: 40%;
+}
+
+section .cards .card.shadow .title .title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+section .cards .card.shadow .texts.img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section .cards .card.shadow .texts.img .text {
+    text-align: justify;
+}

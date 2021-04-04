@@ -22,6 +22,11 @@
     font-size: 1.2rem;
 }
 
+.shadow {
+    box-shadow: 1px 1px 0px #222, 2px 2px 0px #222, 3px 3px 0px #222, 4px 4px 0px #222, 5px 5px 0px #222,
+    6px 6px 0px #222 !important;
+}
+
 /*Menu*/
 header .head .fixo {
     position: fixed;
