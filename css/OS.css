@@ -5,24 +5,17 @@ header .head .fixo {
     width: 100%;
 }
 /*Texto*/
-.BoxPrincipal{
-    text-align: center;
+.sistema_operacional {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+    background-image: url(../Assets/img/Coding2.png);
+    background-position: top;
+    background-size: cover;
 }
-.Paragrafo_1 {
+.Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3 {
+    color: #fff;
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
-    font-size: 1.2rem;
-}
-.Paragrafo_2 {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
-    font-size: 1.2rem;
-}
-.Paragrafo_3 {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
-    font-size: 1.2rem;
 }
