@@ -1,0 +1,30 @@
+section {
+    padding-top: 60px;
+}
+
+section .paragrafo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    margin: 20px;
+}
+
+section .paragrafo .infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section .paragrafo .infos .titulo {
+    font-size: 1.2rem;
+    color: black;
+}
+
+section .paragrafo .infos .texto div p {
+    text-align: justify;
+    font-size: 1rem;
+    padding: 5px;
+}
