@@ -101,3 +101,46 @@ header .head .img.principal .flex .texto p {
     font-size: 1rem;
 }
 /*Menu*/
+
+/* footer */
+
+footer {
+    background: rgb(104, 104, 104);
+    background: linear-gradient(
+        90deg,
+        rgba(104, 104, 104, 1) 0%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(104, 104, 104, 1) 100%
+    );
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #434343,
+        #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+footer .footer .colunas .title h6 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer .footer .colunas.pag .conteudo ul li a p, 
+footer .footer .colunas.trabalho .conteudo a p,
+footer .footer .colunas.creditos .conteudo ul li p {
+    color: white;
+    padding-top: 10px;
+    font-size: .9rem;
+    text-indent: 1em;
+}
+ 
+/* footer */

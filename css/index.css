@@ -30,3 +30,15 @@ section .contents .content.texto.flex .conteiner.textos.conteudos a .box {
 
     width: 250px;
 }
+
+section .contents .content.texto.final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px
+}
+
+section .contents .content.texto.final h1 {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
