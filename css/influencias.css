@@ -20,13 +20,8 @@ section .paragrafo .infos {
 
 section .paragrafo .infos .titulo {
     font-size: 1.8rem;
-<<<<<<< Updated upstream
-    color: #fff;
-    padding-bottom: 0px;
-=======
     color: black;
     padding-bottom: 0;
->>>>>>> Stashed changes
 }
 
 section .paragrafo .infos .texto div p {
