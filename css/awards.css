@@ -14,12 +14,13 @@ section .title {
 }
 
 section .conteudo {
+    padding-top: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 section .conteudo p.paragrafo.textos{
-    padding: 10px 0 10px 0;        
+    padding: 5px 0 5px 0;
+    text-align: justify;
 }
