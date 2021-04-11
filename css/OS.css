@@ -7,6 +7,9 @@ section .sistema_operacional .Título {
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
+    background-color: rgba(28, 54, 113, 0.626);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 section .sistema_operacional {
     min-height: 100vh;
