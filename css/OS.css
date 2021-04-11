@@ -5,8 +5,8 @@ section {
 /*Texto*/
 section .sistema_operacional .Título {
     text-align: center;
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
-    color: rgba(207, 46, 18, 0.904);
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
 }
 section .sistema_operacional {
     min-height: 100vh;
