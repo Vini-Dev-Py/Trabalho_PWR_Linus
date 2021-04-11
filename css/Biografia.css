@@ -1,0 +1,20 @@
+section  {
+    padding-top: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+section .texto .conteudo {
+    text-align: justify;
+    padding-top: 20px;
+}
