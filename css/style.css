@@ -4,20 +4,31 @@
     list-style: none;
     text-decoration: none;
     font-family: arial, sans-serif;
-    color: black;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+img.Logo {
+    width: 90px;
+}
+
+body {
+    background-image: url(../Assets/img/Coding3.png);
+    background-position: top;
+    background-size: cover;
 }
 
 .aspas {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
-    color: black;
+    color: #fff;
     font-weight: 900;
     line-height: 12px;
 }
 
 .texto.P.justify.box {
     text-align: justify;
-    color: white;
+    color: #fff;
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
 }
@@ -38,14 +49,14 @@ header .head .fixo .menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background: rgb(104, 104, 104);
+    background: rgb(104, 104, 104);
     background: linear-gradient(
         90deg,
         rgba(104, 104, 104, 1) 0%,
         rgba(0, 0, 0, 1) 25%,
         rgba(0, 0, 0, 1) 75%,
         rgba(104, 104, 104, 1) 100%
-    ); */
+    );
     background: #000000; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
@@ -120,6 +131,7 @@ footer {
         #434343,
         #000000
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
 }
 
 footer .footer {
@@ -130,14 +142,14 @@ footer .footer {
 }
 
 footer .footer .colunas .title h6 {
-    color: white;
+    color: #fff;
     font-size: 1.2rem;
 }
 
 footer .footer .colunas.pag .conteudo ul li a p, 
 footer .footer .colunas.trabalho .conteudo a p,
 footer .footer .colunas.creditos .conteudo ul li p {
-    color: white;
+    color: #fff;
     padding-top: 10px;
     font-size: .9rem;
     text-indent: 1em;

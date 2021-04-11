@@ -20,7 +20,7 @@ section .paragrafo .infos {
 
 section .paragrafo .infos .titulo {
     font-size: 1.8rem;
-    color: black;
+    color: #fff;
     padding-bottom: 0px;
 }
 

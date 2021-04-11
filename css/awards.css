@@ -7,10 +7,12 @@ section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
 }
 
 section .title {
     font-size: 1.2rem;
+    color: #fff;
 }
 
 section .conteudo {
@@ -18,9 +20,11 @@ section .conteudo {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: #fff;
 }
 
 section .conteudo p.paragrafo.textos{
     padding: 5px 0 5px 0;
     text-align: justify;
+    color: #fff;
 }

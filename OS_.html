@@ -1,65 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/OS.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/OS.css" />
     <title>Linus Torvalds</title>
-</head>
-<body>
-        <header>
-            <div class="head">
-                <div class="fixo">
-                    <div class="menu">
-                        <div class="img">
-                            <img src="" alt="Logo">
-                        </div>
-                        <div class="categorias">
-                            <ul>
-                                <li class="categoria texto"><a href="">Home</a></li>
-                                <li class="categoria texto padd"><a href="">Sistema Operacional</a></li>
-                                <li class="categoria texto padd"><a href="">Bibliografia</a></li>
-                                <li class="categoria texto padd"><a href="">Curiosidades</a></li>
-                                <li class="categoria texto padd"><a href="">Influencia No Ramo</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            <div class="sistema_operacional">
-                <h1 class="Título">Sistema Operacional - Unix</h1>
-                        <p class="Paragrafo_1">
-                        Para que seja possível entender o que é o Linux, deve-se entender a base a qual seu sistema operacional funciona: o Unix. 
-                        Unix é um sistema operacional criado por Kenneth Thompson após um projeto de sistema operacional não ter dado certo. O Unix 
-                        foi o primeiro sistema a introduzir conceitos muito importantes para SOs como suporte a multiusuários, multitarefas e portabilidade. 
-                        Além disso, o Unix suporta tanto alterações por linhas de comando, que dão mais flexibilidade e precisão ao usuário, quanto definições
-                        via interface gráfica, uma opção normalmente mais prática e menos trabalhosa do que a anterior.
-                        Atualmente, uma série de SOs são baseados no Unix, entre eles, nomes consagrados como Gnu/Linux, Mac OS X, Solaris e BSD.
-                        Talvez você nem saiba, mas o sistema operacional que roda no caixa eletrônico onde é possível você sacar seu dinheiro, por exemplo, provavelmente é um do tipo Unix.
-                        </p>
-                        <p class="Paragrafo_2">
-                        Diversos fatores podem ser citados ao exemplificar o motivo da popularidade deste sistema em relação a seus “concorrentes”, o Unix propôs
-                        um sistema multitarefa, capaz de executar dezenas de processos simultaneamente. Ademais, outra característica do Unix é o suporte a multiusuário. 
-                        O sistema permite que várias aplicações sejam executadas de modos independente e concorrente por usuários diversos, o que faz com que o compartilhamento seja feito 
-                        não somente de hardwares, mas também softwares e componentes como discos rígidos e impressoras. Outro fator que com certeza influenciou na popularidade do Unix foi ele 
-                        ter funcionado sob uma licença livre em seus primeiros anos de vida, tendo sido distribuído gratuitamente para universidades e órgãos governamentais dos Estados Unidos.
-                        Apenas depois de algum tempo a licença se tornou proprietária. Contudo, a maioria dos sistemas criados com base no Unix funciona sob um sistema total ou parcial de código aberto. 
-                        Desse modo, a proliferação do sistema foi impulsionada pela licença livre, principalmente das famílias BSD, Open Solaris e Linux.
-                        </p>
-                        <p class="Paragrafo_3">
-                        O Linux, da mesma forma que outros sistemas operacionais que foram citados acima, é um sistema baseado em Unix criado para desktops, mas que também
-                        é usado em servidores, smartphones, tablets e outros tipos de dispositivos, incluindo caixas bancárias. Ao contrário de seus concorrentes mais famosos, o Linux 
-                        não foi desenvolvido para fins comerciais e seu software e desenvolvimento são feitos em código aberto, o que significa que qualquer pessoa pode criar e distribuir aplicativos para ele.
-                        A parte básica do Linux é composta de um kernel, conjunto de instruções que controla como será usado o processador, a memória, o disco e os dispositivos periféricos. É o software presente 
-                        em todo sistema operacional que dita como o computador deve funcionar. O Kernel Linux foi criado por Linus Torvalds, com a primeira versão oficial lançada em 1991. Para funcionar, porém, também 
-                        é necessário aplicativos e bibliotecas específicas para eles. Isto significa que um usuário de Linux pode escolher entre diversos aplicativos para executar a mesma função, sejam eles editores de texto, 
-                        interfaces gráficas ou mesmo prompts de comando.O processo é semelhante à escolha entre Chrome e Firefox: os dois são navegadores, capazes de fazer a mesma coisa, mas de formas e aparência distintas.
-                </div>
-                    <section id="Imagens">
-                        <img src="Assets\img\Ambiente_Gráfico_Rodando_Unix_Anos80.jpeg" alt="Ambiente Gráfico Rodando Unix nos Anos80">
-                        <img src="Assets\img\Unix.png" alt="Logo_Unix">
-                    </section> 
-                   </div> 
-        </header>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <div class="fixo">
+          <div class="menu">
+            <div class="img">
+              <img class="Logo" src="./Assets/img/Linus Banner.png" alt="Logo">
+            </div>
+            <div class="categorias">
+              <ul>
+                <li class="categoria texto"><a href="">Home</a></li>
+                <li class="categoria texto padd">
+                  <a href="">Sistema Operacional</a>
+                </li>
+                <li class="categoria texto padd">
+                  <a href="">Bibliografia</a>
+                </li>
+                <li class="categoria texto padd">
+                  <a href="">Curiosidades</a>
+                </li>
+                <li class="categoria texto padd">
+                  <a href="">Influencia No Ramo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+        <div class="sistema_operacional">
+            <h1 class="Título">Sistema Operacional - Unix</h1>
+            <p class="Paragrafo_1">
+                Para que seja possível entender o que é o Linux, deve-se entender a
+                base a qual seu sistema operacional funciona: o Unix. Unix é um
+                sistema operacional criado por Kenneth Thompson após um projeto de
+                sistema operacional não ter dado certo. O Unix foi o primeiro sistema
+                a introduzir conceitos muito importantes para SOs como suporte a
+                multiusuários, multitarefas e portabilidade. Além disso, o Unix
+                suporta tanto alterações por linhas de comando, que dão mais
+                flexibilidade e precisão ao usuário, quanto definições via interface
+                gráfica, uma opção normalmente mais prática e menos trabalhosa do que
+                a anterior. Atualmente, uma série de SOs são baseados no Unix, entre
+                eles, nomes consagrados como Gnu/Linux, Mac OS X, Solaris e BSD.
+                Talvez você nem saiba, mas o sistema operacional que roda no caixa
+                eletrônico onde é possível você sacar seu dinheiro, por exemplo,
+                provavelmente é um do tipo Unix.
+            </p>
+            <p class="Paragrafo_2">
+                Diversos fatores podem ser citados ao exemplificar o motivo da
+                popularidade deste sistema em relação a seus “concorrentes”, o Unix
+                propôs um sistema multitarefa, capaz de executar dezenas de processos
+                simultaneamente. Ademais, outra característica do Unix é o suporte a
+                multiusuário. O sistema permite que várias aplicações sejam executadas
+                de modos independente e concorrente por usuários diversos, o que faz
+                com que o compartilhamento seja feito não somente de hardwares, mas
+                também softwares e componentes como discos rígidos e impressoras.
+                Outro fator que com certeza influenciou na popularidade do Unix foi
+                ele ter funcionado sob uma licença livre em seus primeiros anos de
+                vida, tendo sido distribuído gratuitamente para universidades e órgãos
+                governamentais dos Estados Unidos. Apenas depois de algum tempo a
+                licença se tornou proprietária. Contudo, a maioria dos sistemas
+                criados com base no Unix funciona sob um sistema total ou parcial de
+                código aberto. Desse modo, a proliferação do sistema foi impulsionada
+                pela licença livre, principalmente das famílias BSD, Open Solaris e
+                Linux.
+            </p>
+            <p class="Paragrafo_3">
+                O Linux, da mesma forma que outros sistemas operacionais que foram
+                citados acima, é um sistema baseado em Unix criado para desktops, mas
+                que também é usado em servidores, smartphones, tablets e outros tipos
+                de dispositivos, incluindo caixas bancárias. Ao contrário de seus
+                concorrentes mais famosos, o Linux não foi desenvolvido para fins
+                comerciais e seu software e desenvolvimento são feitos em código
+                aberto, o que significa que qualquer pessoa pode criar e distribuir
+                aplicativos para ele. A parte básica do Linux é composta de um kernel,
+                conjunto de instruções que controla como será usado o processador, a
+                memória, o disco e os dispositivos periféricos. É o software presente
+                em todo sistema operacional que dita como o computador deve funcionar.
+                O Kernel Linux foi criado por Linus Torvalds, com a primeira versão
+                oficial lançada em 1991. Para funcionar, porém, também é necessário
+                aplicativos e bibliotecas específicas para eles. Isto significa que um
+                usuário de Linux pode escolher entre diversos aplicativos para
+                executar a mesma função, sejam eles editores de texto, interfaces
+                gráficas ou mesmo prompts de comando.O processo é semelhante à escolha
+                entre Chrome e Firefox: os dois são navegadores, capazes de fazer a
+                mesma coisa, mas de formas e aparência distintas.
+            </p>
+        </div>
+        <div id="Imagens">
+            <img src="Assets\img\Ambiente_Gráfico_Rodando_Unix_Anos80.jpeg" alt="Ambiente Gráfico Rodando Unix nos Anos80"/>
+            <img src="Assets\img\Unix.png" alt="Logo_Unix" />
+        </div>
+    </section>
+  </body>
+</html>

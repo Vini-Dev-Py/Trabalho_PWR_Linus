@@ -3,6 +3,7 @@ section  {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
 }
 
 section .texto {
@@ -11,10 +12,11 @@ section .texto {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
+    color: #fff;
 }
 
 section .texto .conteudo {
     text-align: justify;
     padding-top: 20px;
+    color: #fff;
 }

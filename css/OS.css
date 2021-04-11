@@ -1,32 +1,33 @@
-/*Menu*/
-header .head .fixo {
-    position: fixed;
-    z-index: 9;
-    width: 100%;
+section {
+    padding: 60px;
 }
+
 /*Texto*/
-.sistema_operacional .Título {
+section .sistema_operacional .Título {
     text-align: center;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     color: rgba(207, 46, 18, 0.904);
 }
-.sistema_operacional {
+section .sistema_operacional {
     min-height: 100vh;
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    background-image: url(../Assets/img/Coding.png);
-    background-position: top;
-    background-size: cover;
 }
-.sistema_operacional .Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3 {
+section .sistema_operacional .Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3 {
     color: #fff;
-    text-align: center;
+    text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5em;
     padding-top: 40px;
-    width: 40%;
+    width: 80%;
+}
+
+section #Imagens {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
