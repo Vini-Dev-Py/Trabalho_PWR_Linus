@@ -5,7 +5,7 @@ header .head .fixo {
     width: 100%;
 }
 /*Texto*/
-.Título {
+.sistema_operacional .Título {
     text-align: center;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     color: rgba(207, 46, 18, 0.904);
@@ -22,7 +22,7 @@ header .head .fixo {
     background-position: top;
     background-size: cover;
 }
-.Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3 {
+.sistema_operacional .Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3 {
     color: #fff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
