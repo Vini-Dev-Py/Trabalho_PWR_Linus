@@ -5,13 +5,20 @@ header .head .fixo {
     width: 100%;
 }
 /*Texto*/
+.Título {
+    text-align: center;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    color: rgba(207, 46, 18, 0.904);
+}
 .sistema_operacional {
     min-height: 100vh;
-    align-items: center;
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-    background-image: url(../Assets/img/Coding2.png);
+    background-image: url(../Assets/img/Coding.png);
     background-position: top;
     background-size: cover;
 }
@@ -19,4 +26,7 @@ header .head .fixo {
     color: #fff;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    padding-top: 40px;
+    width: 40%;
 }
