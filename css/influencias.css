@@ -79,11 +79,74 @@ section .paragrafo .infos .texto div p {
     justify-content: center;
     margin-right: 150px;
     margin-top: 70px;
+    margin-bottom: 50px;
 
 }
 
 .content-4 img {
     width: 180px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.content-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.content-5 img {
+    width: 200px;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.content-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    margin-top: 10px;
+
+}
+
+.content-6 img {
+    width: 180px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.content-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.content-7 img {
+    width: 200px;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.content-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    margin-top: 70px;
+
+}
+
+.content-8 img {
+    width: 250px;
     margin-left: 150px;
     margin-right: 50px;
     margin-bottom: 10px;
