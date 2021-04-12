@@ -18,6 +18,10 @@ body {
     background-size: cover;
 }
 
+.headBorder {
+    border: 5px solid #222 !important;
+}
+
 .aspas {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
@@ -49,7 +53,7 @@ header .head .fixo .menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: rgb(104, 104, 104);
+    background: rgb(25, 59, 128);
     background: linear-gradient(
         90deg,
         rgba(104, 104, 104, 1) 0%,
@@ -116,6 +120,7 @@ header .head .img.principal .flex .texto p {
 /* footer */
 
 footer {
+    padding-top: 20px;
     background: rgb(104, 104, 104);
     background: linear-gradient(
         90deg,
