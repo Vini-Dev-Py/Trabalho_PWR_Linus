@@ -12,6 +12,10 @@ img.Logo {
     width: 90px;
 }
 
+a:hover {
+    color: yellow;
+}
+
 body {
     background-image: url(../Assets/img/Coding.png);
     background-position: top;
