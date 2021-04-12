@@ -18,7 +18,7 @@ section .sistema_operacional {
     justify-content: center;
     flex-direction: column;
 }
-section .sistema_operacional .Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3, .Paragrafo_4 {
+section .sistema_operacional .Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3, .Paragrafo_4 , .Paragrafo_5 , .Paragrafo_6 {
     color: #fff;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
