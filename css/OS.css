@@ -7,7 +7,6 @@ section .sistema_operacional .Título {
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgba(28, 54, 113, 0.626);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -23,10 +22,9 @@ section .sistema_operacional .Paragrafo_1 , .Paragrafo_2 , .Paragrafo_3 {
     color: #fff;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1rem;
     padding-top: 40px;
     width: 80%;
-    background-color: rgba(28, 54, 113, 0.626);
     margin-left: 10px;
     margin-right: 10px;
 }
