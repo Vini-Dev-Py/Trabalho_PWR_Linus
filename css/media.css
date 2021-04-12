@@ -1,0 +1,124 @@
+@media screen and (max-width: 893px) {
+    section.os, section.bio, section.cur, section.inf, section.awards {
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width: 892px) {
+    header .head .fixo .menu {
+        height: 90px;
+    }
+
+    div.img.principal {
+        padding-top: 100px !important;
+    }
+}
+
+@media screen and (max-width: 871px) {
+    .itens.img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 803px) {
+    header .head .fixo .menu {
+        height: 150px;
+    }
+
+    header .head .fixo .menu .categorias ul .categoria.texto.padd {
+        padding-left: 0;
+    }
+
+    header .head .fixo .menu .categorias ul {
+        display: block;
+    }
+
+    img.Logo {
+        width: 140px;
+    }
+
+    div.img.principal {
+        padding-top: 170px !important;
+    }
+
+    section.os, section.bio, section.cur, section.inf, section.awards {
+        padding-top: 160px !important;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    section .contents .content.texto.final h1 {
+        text-align: center;
+    }
+
+    header .head .img.principal .flex .texto {
+        width: 50%;
+        padding: 0;
+    }
+
+    header .head .img.principal .flex .img {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .imgcard{
+        width: 120px !important;
+    }
+
+    section .cards .card.shadow .title .title {
+        font-size: 1rem;
+    }
+
+    section .cards .card.shadow .texts.img .text {
+        font-size: .8rem;
+    }
+
+    section .cards .card.shadow {
+        width: 80% !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    header .head .img.principal .flex .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .headBorder {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .categorias {
+        display: none !important;
+    }
+
+    header .head .fixo .menu {
+        height: 70px;
+    }
+
+    img.Logo {
+        width: 90px;
+    }
+
+    div.img.principal {
+        padding-top: 90px !important;
+    }
+
+    section.os, section.bio, section.cur, section.inf, section.awards {
+        padding-top: 80px !important;
+    }
+
+    section .paragrafo .infos .texto div .content {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 346px) {
+    .imgcard{
+        width: 100px !important;
+    }
+}
