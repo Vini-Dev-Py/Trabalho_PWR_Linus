@@ -28,3 +28,17 @@ section .conteudo p.paragrafo.textos{
     text-align: justify;
     color: #fff;
 }
+
+section .conteudo .flex.jornal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.imgPremio {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
