@@ -15,7 +15,7 @@ section .texto {
     color: #fff;
 }
 
-section .texto .conteudo {
+section .texto .conteudo p {
     text-align: justify;
     padding-top: 20px;
     color: #fff;
