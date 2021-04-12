@@ -61,7 +61,7 @@
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 561px) {
     .imgcard{
         width: 120px !important;
     }
@@ -76,6 +76,10 @@
 
     section .cards .card.shadow {
         width: 80% !important;
+        margin-bottom: 20px;
+    }
+
+    section .contents .content.texto.flex .conteiner.textos.conteudos {
         margin-bottom: 20px;
     }
 }
@@ -114,6 +118,12 @@
 
     section .paragrafo .infos .texto div .content {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    footer .footer {
+        padding: 0;
     }
 }
 
